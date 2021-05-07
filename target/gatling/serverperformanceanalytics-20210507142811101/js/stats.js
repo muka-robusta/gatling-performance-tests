@@ -6,8 +6,8 @@ pathFormatted: "group_missing-name-b06d1",
 stats: {
     "name": "Global Information",
     "numberOfRequests": {
-        "total": "3300",
-        "ok": "3300",
+        "total": "15300",
+        "ok": "15300",
         "ko": "0"
     },
     "minResponseTime": {
@@ -16,8 +16,8 @@ stats: {
         "ko": "-"
     },
     "maxResponseTime": {
-        "total": "124",
-        "ok": "124",
+        "total": "309",
+        "ok": "309",
         "ko": "-"
     },
     "meanResponseTime": {
@@ -26,8 +26,8 @@ stats: {
         "ko": "-"
     },
     "standardDeviation": {
-        "total": "1",
-        "ok": "1",
+        "total": "2",
+        "ok": "2",
         "ko": "-"
     },
     "percentiles1": {
@@ -52,7 +52,7 @@ stats: {
     },
     "group1": {
     "name": "t < 800 ms",
-    "count": 3300,
+    "count": 15300,
     "percentage": 100
 },
     "group2": {
@@ -71,8 +71,8 @@ stats: {
     "percentage": 0
 },
     "meanNumberOfRequestsPerSecond": {
-        "total": "54.098",
-        "ok": "54.098",
+        "total": "250.82",
+        "ok": "250.82",
         "ko": "-"
     }
 },
@@ -85,8 +85,8 @@ pathFormatted: "req_get-a-kilobyte--d6cad",
 stats: {
     "name": "Get a kilobyte of data",
     "numberOfRequests": {
-        "total": "3300",
-        "ok": "3300",
+        "total": "15300",
+        "ok": "15300",
         "ko": "0"
     },
     "minResponseTime": {
@@ -95,8 +95,8 @@ stats: {
         "ko": "-"
     },
     "maxResponseTime": {
-        "total": "124",
-        "ok": "124",
+        "total": "309",
+        "ok": "309",
         "ko": "-"
     },
     "meanResponseTime": {
@@ -105,8 +105,8 @@ stats: {
         "ko": "-"
     },
     "standardDeviation": {
-        "total": "1",
-        "ok": "1",
+        "total": "2",
+        "ok": "2",
         "ko": "-"
     },
     "percentiles1": {
@@ -131,7 +131,7 @@ stats: {
     },
     "group1": {
     "name": "t < 800 ms",
-    "count": 3300,
+    "count": 15300,
     "percentage": 100
 },
     "group2": {
@@ -150,8 +150,8 @@ stats: {
     "percentage": 0
 },
     "meanNumberOfRequestsPerSecond": {
-        "total": "54.098",
-        "ok": "54.098",
+        "total": "250.82",
+        "ok": "250.82",
         "ko": "-"
     }
 }

@@ -25,7 +25,7 @@ class ServerPerformanceAnalytics extends Simulation {
   setUp(
     scn.inject(
       nothingFor(1 seconds),
-      rampUsersPerSec(10) to (100) during(1 minutes)
+      rampUsersPerSec(10) to (500) during(1 minutes)
     ).protocols(httpConfig.inferHtmlResources())
   )
 }

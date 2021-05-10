@@ -19,13 +19,13 @@ class ServerPerformanceAnalytics extends Simulation {
     )
   }
 
-  val scn = scenario("Test of performance")
+  val scn = scenario("Test of performance jetty")
     .exec(getKilobyteOfData())
 
   setUp(
     scn.inject(
       nothingFor(1 seconds),
-      rampUsersPerSec(100) to (1000) during(1 minutes)
+      rampUsersPerSec(100) to (5000) during(1 minutes)
     ).protocols(httpConfig.inferHtmlResources())
   )
 }

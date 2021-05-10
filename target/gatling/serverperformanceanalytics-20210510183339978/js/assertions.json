@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.ServerPerformanceAnalytics",
+  "simulationId": "serverperformanceanalytics",
+  "start": 1620671619978,
+  "description": "",
+  "scenarios": ["Test of performance qks on graalvm"],
+  "assertions": [
+
+  ]
+}

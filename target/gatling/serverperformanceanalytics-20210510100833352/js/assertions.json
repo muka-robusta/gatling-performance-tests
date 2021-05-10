@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.ServerPerformanceAnalytics",
+  "simulationId": "serverperformanceanalytics",
+  "start": 1620641313352,
+  "description": "",
+  "scenarios": ["Test of performance"],
+  "assertions": [
+
+  ]
+}

@@ -14,7 +14,7 @@ java_pid1372.hprof
 *.iws
 
 # building
-target
+# target
 build
 null
 tmp

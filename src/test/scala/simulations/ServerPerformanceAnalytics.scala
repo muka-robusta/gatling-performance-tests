@@ -8,7 +8,7 @@ import scala.language.postfixOps
 
 class ServerPerformanceAnalytics extends Simulation {
 
-  var httpConfig = http.baseUrl("http://localhost:8080/file-api")
+  var httpConfig = http.baseUrl("http://3.234.210.15:8080/file-api/")
     .header("Accept", "text/plain")
 
   def getKilobyteOfData() = {
@@ -25,7 +25,7 @@ class ServerPerformanceAnalytics extends Simulation {
   setUp(
     scn.inject(
       nothingFor(1 seconds),
-      rampUsersPerSec(10) to (500) during(1 minutes)
+      rampUsersPerSec(100) to (1000) during(1 minutes)
     ).protocols(httpConfig.inferHtmlResources())
   )
 }
